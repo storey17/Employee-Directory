@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import API from "./utils/API";
 import EmployeeCard from "./components/EmployeeCard";
+import Header from "./components/Header";
+// import SortForm from "./components/SortForm";
 
 var employeeList;
 
@@ -20,6 +22,8 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Header />
+        {/* <SortForm /> */}
         {this.state.employees.map(employee =>
           <EmployeeCard 
             firstName={employee.name.first} 

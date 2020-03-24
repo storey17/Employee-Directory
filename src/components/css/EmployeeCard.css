@@ -2,11 +2,8 @@ p {
     position: relative;
 }
 
-hr {
-    background-color: white;
-}
-
 .employeeInfo {
+    /* margin-left: 5%; */
     position: absolute;
     top: 25%;
 }
