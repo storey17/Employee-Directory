@@ -1,0 +1,22 @@
+p {
+    position: relative;
+}
+
+hr {
+    background-color: white;
+}
+
+.employeeInfo {
+    position: absolute;
+    top: 25%;
+}
+
+img {
+    height: 72px;
+    width: 72px;
+    margin: 14px auto;
+}
+
+.row {
+    height: 100px;
+}
