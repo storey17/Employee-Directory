@@ -2,10 +2,8 @@ p {
     position: relative;
 }
 
-.employeeInfo {
-    /* margin-left: 5%; */
-    position: absolute;
-    top: 25%;
+.employeeCard {
+    margin-left: 3%;
 }
 
 img {
