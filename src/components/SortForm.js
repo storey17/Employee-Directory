@@ -7,7 +7,7 @@ function SortForm(){
     const location = useLocation();
 
     return (
-        <div className="jumbotron">
+        <div className= "jumbotron">
             <div className="container d-flex justify-content-around flex-wrap">
                     <Link to="/employee-directory">
                         <button className={location.pathname === "/employee-directory" || location.pathname === "/employee-directory/" ? "btn btn-warning" : "btn btn-success"}>
